@@ -1,0 +1,45 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Thu Aug 10 07:54:36 2023
+[*]
+[dumpfile] "/home/anne/work/1_IC/3_Verification/axis_bypass/axis_bypass.fst"
+[dumpfile_mtime] "Thu Aug 10 07:48:47 2023"
+[dumpfile_size] 1759
+[savefile] "/home/anne/work/1_IC/3_Verification/axis_bypass/axis_bypass.gtkw"
+[timestart] 0
+[size] 1428 819
+[pos] 49320 31366
+*-19.560633 3502000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 214
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 147
+@28
+axis_bypass.clk
+axis_bypass.rst
+axis_bypass.m_axis_tready
+axis_bypass.m_axis_tvalid
+axis_bypass.m_axis_tlast
+@22
+axis_bypass.m_axis_tdata[31:0]
+@200
+-
+-
+@28
+axis_bypass.s_axis_tready
+axis_bypass.s_axis_tvalid
+axis_bypass.s_axis_tlast
+@23
+axis_bypass.s_axis_tdata[31:0]
+@200
+-
+-
+-
+-
+-
+-
+-
+-
+-
+[pattern_trace] 1
+[pattern_trace] 0
