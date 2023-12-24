@@ -20,7 +20,8 @@
 
 TOPLEVEL_LANG = verilog
 
-SIM ?= icarus
+# SIM ?= icarus
+SIM ?= questa
 WAVES ?= 1
 
 COCOTB_HDL_TIMEUNIT = 1ns
@@ -31,6 +32,8 @@ TOPLEVEL = $(DUT)
 MODULE   = test_$(DUT)
 # VERILOG_SOURCES += ./rtl/$(DUT).v
 VERILOG_SOURCES += ../rtl/*.v
+
+COCOTB_PY_DIR = /home/anne/miniconda3/envs/HDL/bin/python
 
 ifeq ($(SIM), icarus)
 	PLUSARGS += -fst
